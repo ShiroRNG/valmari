@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #424242;
+}
+
+[class*="_container"]{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.main {
+
+}
+
+.rell_container {
+    height: 560px;
+    width: 1320px;
+    background: #ECFFEB;
+}
+
+.rell_container h1 {
+    width: 496px;
+    height: 127px;
+    font-size: 65px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: #55A630;
+}
+
+.t1 {
+    width: 230px;
+    height: 33px;
+
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+}
+
+.t2 {
+    width: 419px;
+    height: 72px;
+
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #424242;
+    margin: 20px 0 0 0;
+}
+
+.rel_container img {
+    position: absolute;
+    width: 681px;
+    height: 556px;  
+    right: -30px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.rel_container {
+    position: relative;
+    padding: 71px 0 138px;
+}
+
+.rel__buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reg_button {
+    display: inline-block;
+    width: 285px;
+    height: 66px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #55A630;
+    padding: 20px 40px;
+}
+
+.reg2_button {
+    display: inline-block;
+    width: 285px;
+    height: 66px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #55A630;
+    border: 1px solid #55A630;
+    padding: 20px 40px;
+    margin: auto 20px;
+}
+
+.trigger_container {
+    padding: 51px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -28px;
+    background: #FFFFFF;
+    box-shadow: -2px 2px 20px rgba(66, 66, 66, 0.15);
+    border-radius: 4px; 
+    
+}
+
+.p1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    color: #55A630;
+    padding-bottom: 8px;
+}
+
+.p2 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #424242;
+    max-width: 190px;
+}
+
+.wall_lines{
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.7;
+    margin-right: 255;
+}
+
+.study {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 28px;
+}
