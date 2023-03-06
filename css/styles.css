@@ -863,3 +863,80 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.why_us__wrap{
+    width: 1200px;
+    height: 420px;
+    margin-top: 175px;
+    
+}
+
+.why_us__wrap h3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #424242;
+    
+}
+
+.why__block1{
+    width: 380px;
+    height: 315px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 20px rgba(66, 66, 66, 0.15);
+    
+}
+
+.why__green{
+    background: #B7ECB1;
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+}
+
+.why_us__block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.why__block1 h4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 26px;
+    color: #424242;
+    padding: 40px 154px 250px 30px;
+}
+
+.why__block1 p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1C1E23;
+    opacity: 0.8;
+    margin: -220px 0px 0px 30px;
+}
+
+.why__down{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 180px;
+    line-height: 36px;
+    margin: -71px 0px 0px 165px;
+    color: rgba(85, 166, 48, 0.25);
+}
+
+.why__up{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 180px;
+    line-height: 36px;
+    margin: -185px 0px 0px 155px;
+    color: rgba(255, 255, 255, 0.3);
+}
