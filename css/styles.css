@@ -48,6 +48,12 @@ body {
     line-height: 1;
 }
 
+.main__wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     font-family: Montserrat;
     font-size: 16px;
@@ -173,6 +179,7 @@ body{
 
 .main {
     margin-top: -44px;
+    flex: 1 1 auto;
 }
 
 .rell_container {
@@ -939,5 +946,140 @@ body{
     line-height: 36px;
     margin: -185px 0px 0px 155px;
     color: rgba(255, 255, 255, 0.3);
-    
 }
+
+.master_classes__wrap{
+    width: 1200px;
+    height: 715px;
+    margin-top: 175px;
+}
+
+.master_classes__text h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #424242;
+    }
+
+.master_classes__text h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+
+    text-align: center;
+
+    color: #424242;
+
+    margin-top: 30px;
+}
+
+.classes__box{
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+}
+
+.classes__item_1{
+    filter: drop-shadow(0px 2px 20px rgba(66, 66, 66, 0.15));
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-right: 153px;
+}
+
+.classes__item_2{
+    position: relative;
+	filter: drop-shadow(0px 2px 20px rgba(66, 66, 66, 0.15));
+}
+
+.classes__img img{
+    width: 100%;
+}
+
+.classes__item{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.classes__description{
+    display: flex;
+	flex-direction: column;
+	padding: 10px 45px 30px 35px;
+    background: #FFFFFF;
+    margin-top: -3px;
+}
+
+.classes__description span{
+	margin: 15px 0px 15px 0px;
+	font-weight: 500;
+	font-size: 16px;
+	color: #424242;
+	opacity: 0.8;
+}
+
+.classes__description h6{
+	width: 293px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #424242;
+	margin: 0px 0px 40px 0px;
+	line-height: 1.1;
+}
+
+.classes__description p{
+	font-weight: 400;
+	font-size: 18px;
+	color: #424242;
+	opacity: 0.8;
+}
+
+.classes__price{
+    display: flex;
+	flex-direction: column;
+    margin-top: -67px;
+}
+
+.classes__price__cost{
+	width: 153px;
+	height: 132px;
+	background: #ECF9EB;
+}
+
+.classes__price__cost{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 65px 0px 0px 0px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #424242;
+	opacity: 0.8;
+}
+
+.spikers{
+    width: 273px;
+}
+
+.classes__price__arr{
+    position: relative;
+	width: 153px;
+	height: 98px;
+	background: #55A630;
+}
+
+.classes__price__arr::before{
+    color: white;
+	position: absolute;
+	content: url('/valmari/img/Arrow19.svg');
+	width: 25px;
+	top: 45%;
+	left: 42%;
+}
+
+
